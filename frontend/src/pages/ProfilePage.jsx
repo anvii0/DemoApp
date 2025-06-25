@@ -11,7 +11,7 @@ function ProfilePage() {
 
   const handleSubmit = async () => {
     try {
-      const res = await fetch('http://localhost:5001/api/profile', {
+      const res = await fetch('http://localhost:5002/api/profile', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
