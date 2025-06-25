@@ -1,0 +1,69 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f7f9fc;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.profile-form {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.profile-form h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.step-indicator {
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #777;
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.next-btn {
+  background-color: #4b7bec;
+  color: white;
+}
+
+.back-btn {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.submit-btn {
+  background-color: #20bf6b;
+  color: white;
+}

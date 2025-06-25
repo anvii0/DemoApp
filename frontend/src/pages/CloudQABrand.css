@@ -1,0 +1,17 @@
+/* src/components/CloudQABrand.css */
+.cloudqa-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cloudqa-logo {
+  width: 50px;
+  height: auto;
+}
+
+.cloudqa-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0056D1; /* Approx CloudQA blue */
+}

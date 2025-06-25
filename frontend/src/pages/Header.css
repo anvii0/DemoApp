@@ -1,0 +1,14 @@
+/* src/pages/Header.css */
+.cloudqa-header {
+  padding: 12px 24px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.cloudqa-logo {
+  height: 40px;
+}

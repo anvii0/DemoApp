@@ -1,0 +1,58 @@
+.new-ticket-container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.new-ticket-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ticket-form label {
+  display: block;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.ticket-form input,
+.ticket-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.ticket-form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.button-row button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-row .submit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.button-row button:hover {
+  opacity: 0.9;
+}

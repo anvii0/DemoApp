@@ -1,0 +1,47 @@
+/* TicketEditPage.css */
+.ticket-edit-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-edit-container h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ticket-edit-container label {
+  display: block;
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.ticket-edit-container input,
+.ticket-edit-container textarea,
+.ticket-edit-container select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.ticket-edit-container button {
+  margin-top: 24px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.ticket-edit-container button:hover {
+  background-color: #218838;
+}
